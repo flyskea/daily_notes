@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "571680be89e82e75",
+    "type": "split",
+    "children": [
+      {
+        "id": "e14c8352d19df58f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed94f89c4724e445",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f40b78a0e31ae7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b958ada3b5cb5e60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a8c16f1d22bdf24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e659c7440a2aae41",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "723cfe949f53cc9b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6336e0dc10ca71a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "521f5205f8aecadd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7665536a9471bf3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b0a6bda163070ba7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25e1cb8b4a076e31",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d69873719c3bebb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ed94f89c4724e445",
+  "lastOpenFiles": [
+    "4.md",
+    "系统设计/第三章 系统设计面试框架.md",
+    "系统设计/picture/Pasted image 20230527211454.png",
+    "系统设计/picture/Pasted image 20230527211439.png",
+    "系统设计/第二章 封底计算.md",
+    "系统设计/picture/Pasted image 20230527210259.png",
+    "Pasted.md",
+    "系统设计/picture/Pasted image 20230527210202.png",
+    "未命名.md",
+    "系统设计/picture",
+    "系统设计",
+    "1.md",
+    "系统设计/picture/Pasted image 20230527203235.png",
+    "6.md"
+  ]
+}
