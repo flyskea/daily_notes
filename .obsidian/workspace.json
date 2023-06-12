@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e14c8352d19df58f",
+        "id": "9a3a1dfb8328e65f",
         "type": "tabs",
         "children": [
           {
-            "id": "ed94f89c4724e445",
+            "id": "abf2fdee874cf5b9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "系统设计/第四章 设计限流器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51f0fb929cf51969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "系统设计/第五章 设计一致性哈希.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "系统设计/第五章 设计一致性哈希.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "系统设计/第五章 设计一致性哈希.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,22 +131,13 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "2d69873719c3bebb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,21 +149,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed94f89c4724e445",
+  "active": "25e1cb8b4a076e31",
   "lastOpenFiles": [
-    "4.md",
+    "系统设计/第五章 设计一致性哈希.md",
+    "系统设计/picture/Pasted image 20230612110812.png",
+    "系统设计/picture/Pasted image 20230612110810.png",
+    "系统设计/picture/Pasted image 20230612110701.png",
+    "系统设计/picture/Pasted image 20230612110459.png",
+    "系统设计/picture/Pasted image 20230612110418.png",
+    "系统设计/picture/Pasted image 20230612110255.png",
+    "系统设计/picture/Pasted image 20230612110207.png",
+    "系统设计/picture/Pasted image 20230612110034.png",
+    "系统设计/picture/Pasted image 20230612105659.png",
+    "系统设计/picture/Pasted image 20230612105500.png",
+    "系统设计/第四章 设计限流器.md",
     "系统设计/第三章 系统设计面试框架.md",
-    "系统设计/picture/Pasted image 20230527211454.png",
-    "系统设计/picture/Pasted image 20230527211439.png",
+    "README.md",
+    "4.md",
     "系统设计/第二章 封底计算.md",
-    "系统设计/picture/Pasted image 20230527210259.png",
     "Pasted.md",
-    "系统设计/picture/Pasted image 20230527210202.png",
     "未命名.md",
     "系统设计/picture",
     "系统设计",
     "1.md",
-    "系统设计/picture/Pasted image 20230527203235.png",
     "6.md"
   ]
 }
