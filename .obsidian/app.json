@@ -1,7 +1,8 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "系统设计/picture",
+  "attachmentFolderPath": "picture",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true
 }

@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "系统设计/第四章 设计限流器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51f0fb929cf51969",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "系统设计/第五章 设计一致性哈希.md",
+                "file": "分布式/分布式事务.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "系统设计/第五章 设计一致性哈希.md",
+                "file": "分布式/分布式事务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "系统设计/第五章 设计一致性哈希.md",
+                "file": "分布式/分布式事务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,9 +118,19 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "ce8b40b1e6ad9f91",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "分布式/分布式事务.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -149,27 +146,31 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "25e1cb8b4a076e31",
+  "active": "abf2fdee874cf5b9",
   "lastOpenFiles": [
+    "picture/Pasted image 20230627174234.png",
+    "分布式/分布式事务.md",
+    "picture/Pasted image 20230627174835.png",
+    "picture/Pasted image 20230627174804.png",
+    "picture/Pasted image 20230627174756.png",
     "系统设计/第五章 设计一致性哈希.md",
-    "系统设计/picture/Pasted image 20230612110812.png",
-    "系统设计/picture/Pasted image 20230612110810.png",
-    "系统设计/picture/Pasted image 20230612110701.png",
-    "系统设计/picture/Pasted image 20230612110459.png",
-    "系统设计/picture/Pasted image 20230612110418.png",
-    "系统设计/picture/Pasted image 20230612110255.png",
-    "系统设计/picture/Pasted image 20230612110207.png",
-    "系统设计/picture/Pasted image 20230612110034.png",
-    "系统设计/picture/Pasted image 20230612105659.png",
-    "系统设计/picture/Pasted image 20230612105500.png",
+    "未命名",
+    "picture/Pasted image 20230627174631.png",
+    "分布式/未命名",
+    "分布式",
     "系统设计/第四章 设计限流器.md",
-    "系统设计/第三章 系统设计面试框架.md",
     "README.md",
+    "picture/Pasted image 20230612110812.png",
+    "picture/Pasted image 20230612110810.png",
+    "picture/Pasted image 20230612110701.png",
+    "picture/Pasted image 20230612110459.png",
+    "picture/Pasted image 20230612110418.png",
+    "系统设计/第三章 系统设计面试框架.md",
     "4.md",
     "系统设计/第二章 封底计算.md",
     "Pasted.md",
     "未命名.md",
-    "系统设计/picture",
+    "picture",
     "系统设计",
     "1.md",
     "6.md"
