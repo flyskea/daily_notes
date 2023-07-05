@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c7f5f9e97ced6e67",
+        "id": "f4514e8220a1bedc",
         "type": "tabs",
         "children": [
           {
-            "id": "d0fc3a8b7d99386a",
+            "id": "1f75c5d553c7f2c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "系统设计/设计信息流(news feed)系统.md",
+                "file": "操作系统/零拷贝.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "系统设计/设计信息流(news feed)系统.md",
+                "file": "操作系统/零拷贝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "系统设计/设计信息流(news feed)系统.md",
+                "file": "操作系统/零拷贝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "系统设计/设计信息流(news feed)系统.md"
+                "file": "操作系统/零拷贝.md"
               }
             }
           }
@@ -143,29 +143,34 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false
     }
   },
-  "active": "d0fc3a8b7d99386a",
+  "active": "1f75c5d553c7f2c6",
   "lastOpenFiles": [
+    "picture/c5dd1a07083a6523ded3963af4587448_MD5.webp",
+    "picture/bfffeae70bfcb5867476d8f4eee7d3ea_MD5.webp",
+    "picture/fe8e456831cd8131fd05ec16b8808cb5_MD5.webp",
+    "picture/9562a330d2aae987e05404daf0538451_MD5.webp",
+    "picture/eef6f4a27be8f2a92711ad7847351dc2_MD5.webp",
+    "picture/fb0d8396b7e91924bf72a37392ebbcc1_MD5.webp",
+    "picture/c821a17394f8724f6c11811d9d78088a_MD5.webp",
+    "picture/42bceefa1031f5831268e8a93eeef805_MD5.webp",
+    "picture/11465881fdecfe02007e08c0762539ce_MD5.webp",
+    "picture/a55c6f3e78a4fb5eaf0c2c9f9dd286c3_MD5.webp",
+    "picture/1dc552eefcd21de5becb8b2f510a911d_MD5.webp",
+    "操作系统/零拷贝.md",
+    "操作系统",
+    "系统设计/设计信息流(news feed)系统.md",
+    "操作系统/操作系统导论.md",
+    "操作系统",
     "系统设计/第三章 系统设计面试框架.md",
     "系统设计/第四章 设计限流器.md",
     "系统设计/第五章 设计一致性哈希.md",
-    "系统设计/设计信息流(news feed)系统.md",
-    "picture/Pasted image 20230628160919.png",
-    "picture/Pasted image 20230628160517.png",
-    "picture/Pasted image 20230628160506.png",
-    "picture/Pasted image 20230628160345.png",
-    "picture/Pasted image 20230628160009.png",
-    "picture/Pasted image 20230628155503.png",
-    "picture/Pasted image 20230628155445.png",
-    "picture/Pasted image 20230628155211.png",
     "系统设计/第二章 封底计算.md",
-    "picture/Pasted image 20230628154315.png",
     "系统设计/字典表设计.md",
     "分布式/分布式事务.md",
-    "picture/Pasted image 20230627174234.png",
-    "未命名",
     "分布式/未命名",
     "分布式",
     "README.md",
