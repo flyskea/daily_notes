@@ -4,7 +4,7 @@
 
 ⼀个实际应用程序的各个组成部分:
 
-![resouces in application](picture/application.png)
+![resouces in application](../../picture/application.png)
 
 ## 2.了解 pod 的生命周期
 
@@ -19,13 +19,13 @@
 在应用往磁盘写入数据的情况下， 当应用在新的 pod 中启动后这些数据可能会丢失，除⾮你将持久化的存储挂载到应用的数据写入路径。在 pod 被重新调度的时候，数据丢失是一定的，但是即使在没有调度的情况下，写入磁盘的文件仍然会丢失。甚至是在单个 pod 的生命周期过程中，pod 中的应用写入磁盘的文件也会丢失。
 单个容器可能因为各种原因被重启，例如进程崩溃了，例如存活探针返回失败了，或者是因为节点内存逐步耗尽，进程 被 OOMKiller 杀死了。当上述情况发生的时候，pod 还是⼀样，但是容器却是全新的了。Kubelet 不会⼀个容器运行多次，而是会重新创建⼀个容器。
 
-![pod killed and lose data](picture/lostdata.png)
+![pod killed and lose data](../../picture/lostdata.png)
 
 #### 使用存储卷来跨容器持久化数据
 
 需要至少使用⼀个 pod 级别的卷。因为卷的存在和销毁与 pod 生命周期是⼀致的，所以新的容器将可以重用之前容器写到卷上的数据。
 
-![use storage volume](picture/storedata.png)
+![use storage volume](../../picture/storedata.png)
 
 ### 重新调度死亡的或者部分死亡的 pod
 
@@ -179,7 +179,7 @@ spec:
 3. 等待容器优雅地关闭或者等待终止宽限期超时
 4. 如果容器主进程没有优雅地关闭，使用 SIGKILL 信号强制终止进程
 
-![kill order](picture/killorder.png)
+![kill order](../../picture/killorder.png)
 
 #### 指定终止宽限期
 
@@ -219,11 +219,11 @@ kubectl delete po mypod --grace-period=0 --force
 
 #### 了解 pod 删除时发生的⼀连串事件
 
-![events when pod deleted](picture/eventsWhenPodDeleted.png)
+![events when pod deleted](../../picture/eventsWhenPodDeleted.png)
 
 当 API 服务器接收到删除 pod 的请求之后，它⾸先修改了 etcd 中的状态并且把删除事件通知给观察者。其中的两个观察者就是 Kubelet 和端点控制器（Endpoint Controller）。
 
-![pod killed events timeline](picture/podKilledEventsTimeline.png)
+![pod killed events timeline](../../picture/podKilledEventsTimeline.png)
 
 简要概括⼀下，妥善关闭⼀个应用包括如下步骤：
 
@@ -232,7 +232,7 @@ kubectl delete po mypod --grace-period=0 --force
 3. 等待所有的请求都完成。
 4. 然后完全关闭应用。
 
-![wait](picture/wait.png)
+![wait](../../picture/wait.png)
 
 ## 4.让应用在 Kubernetes 中方便运行和管理
 

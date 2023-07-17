@@ -93,7 +93,7 @@ spec:
 
 PV 与 PVC 用于解耦 Pod 与底层存储。PV、PVC 与底层存储关系：
 
-![pv and pvc](picture/pv_pvc.png)
+![pv and pvc](../../picture/pv_pvc.png)
 
 流程：
 
@@ -183,4 +183,4 @@ parameters:
 
 总流程：可创建 StorageClass 存储类资源，用于分类 PV，在 PVC 中绑定到符合条件的 PV 上。
 
-![StorageClass](picture/storageClass.png)
+![StorageClass](../../picture/storageClass.png)

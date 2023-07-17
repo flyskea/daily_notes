@@ -95,7 +95,7 @@ Allocated resources:
 
 CPU requests 不仅仅在调度时起作用，它还决定着剩余（未使用）的 CPU 时间如何在 pod 之间分配。正如图 14.2 描绘的那样，因为第⼀个 pod 请求了 200 毫核，另⼀个请求了 1000 毫核，所以未使用的 CPU 将按照 1:5 的⽐例来划分给这两个 pod。如果两个 pod 都全⼒使用 CPU，第⼀个 pod 将获得 16.7%的 CPU 时间，另⼀个将获得 83.3%的 CPU 时间。
 
-![14-2](picture/14-2.png)
+![14-2](../../picture/14-2.png)
 
 ## 2.限制容器的可用资源
 
@@ -197,15 +197,15 @@ Load average: 0.71 0.24 0.40 5/1065 13
 
 #### requests 和 limits 之间的关系如何定义 QoS 等级
 
-![requests qos](picture/podQos.png)
+![requests qos](../../picture/podQos.png)
 
 #### 单容器 pod 的 Qos 等级
 
-![pod qos](picture/singlePodQos.png)
+![pod qos](../../picture/singlePodQos.png)
 
 #### 多容器 pod 的 QoS 等级
 
-![pod qos](picture/mutiPodQos.png)
+![pod qos](../../picture/mutiPodQos.png)
 
 ### 内存不足时哪个进程会被杀死
 
@@ -213,7 +213,7 @@ Load average: 0.71 0.24 0.40 5/1065 13
 
 #### qos 优先顺序
 
-![first to be killed pod](./picture/firstKilledPod.png)
+![first to be killed pod](../../picture/firstKilledPod.png)
 
 #### 处理相同 QoS 等级的容器
 
@@ -227,7 +227,7 @@ Load average: 0.71 0.24 0.40 5/1065 13
 
 用户可以通过创建⼀个 LimitRange 资源来避免必须配置每个容器。LimitRange 资源不仅允许用户（为每个命名空间）指定能给容器配置的每种资源的最⼩和最⼤限额，还⽀持在没有显式指定资源 requests 时为容器设置默认值，
 
-![limitRange ](picture/limitRange.png)
+![limitRange ](../../picture/limitRange.png)
 
 LimitRange 对象的⼀个⼴泛应用场景就是阻止用户创建⼤于单个节点资源量的 pod。
 LimitRange 资源中的 limits 应用于同⼀个命名空间中每个独立的 pod、容器，或者其他类型的对象。
@@ -324,7 +324,7 @@ spec:
     limits.memory: 500Mi
 ```
 
-![resourece quota](./picture/resoureceQuota.png)
+![resourece quota](../../picture/resoureceQuota.png)
 
 查看配额
 

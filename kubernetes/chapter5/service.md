@@ -4,11 +4,11 @@
 
 Kubernetes 服务是⼀种为⼀组功能相同的 pod 提供单⼀不变的接⼊点的资源。当服务存在时，它的 IP 地址和端⼜不会改变。客户端通过 IP 地址和端口号建⽴连接，这些连接会被路由到提供该服务的任意⼀个 pod 上。服务的 IP 地址固定不变。
 
-![connect pod via service](picture/service.png)
+![connect pod via service](../../picture/service.png)
 
 ### 创建服务
 
-![labels selector decide which service pod belongs to](picture/labelsSelector.png)
+![labels selector decide which service pod belongs to](../../picture/labelsSelector.png)
 
 ```yaml
 apiVersion: v1

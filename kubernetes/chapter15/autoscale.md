@@ -16,7 +16,7 @@
 
 Autoscaler 本⾝并不负责采集 pod 度量数据，pod 与节点度量数据是由运行在每个节点的 kubelet 之上，名为 cAdvisor 的 agent 采集的。
 
-![HorizontalpodAutoscaler example](picture/2022-11-22-21-21-48.png)
+![HorizontalpodAutoscaler example](../../picture/2022-11-22-21-21-48.png)
 
 > 期望副本数 = ceil[当前副本数 * (当前指标 / 期望指标)]
 

@@ -6,7 +6,7 @@
 
 ### 介绍污点和容忍度
 
-![taints](./picture/taints.png)
+![taints](../../picture/taints.png)
 
 #### 污点效果
 
@@ -83,7 +83,7 @@ spec:
 
 requiredDuringSchedulingIgnoredDuringExecution （NodeSelector）
 如果在调度时不满足该字段指定的亲和性要求，则不会将 Pod 调度到该节点上。 如果在 Pod 执行期间的某个时间点不再满足此字段指定的亲和性要求（例如：由于更新）， 系统可能会或可能不会尝试最终将 Pod 从其节点中逐出。
-![nodeAffinity](picture/nodeAffinity.png)
+![nodeAffinity](../../picture/nodeAffinity.png)
 
 ### 调度 pod 时优先考虑某些节点
 
@@ -132,7 +132,7 @@ spec:
           name: main
 ```
 
-![preferred](picture/preferred.png)
+![preferred](../../picture/preferred.png)
 
 ## 3.使用 pod 亲缘性与非亲缘性对 pod 进行协同部署
 
@@ -179,7 +179,7 @@ spec:
             - "99999"
 ```
 
-![podAffinity](picture/podaffinity.png)
+![podAffinity](../../picture/podaffinity.png)
 
 如果现在你删除了后端 pod，调度器会将该 pod 调度到 node2，即便后端 pod 本⾝没有定义任何 pod 亲缘性规则。当调度后端 pod 时，由于 pod 间亲缘性，node2 获得了⽐ node1 更⾼的分数。
 
@@ -198,7 +198,7 @@ spec:
 topologyKey 的⼯作方式很简单，⽬前我们提到的 3 个键并没有什么特别的。如果你愿意，可以任意设置自定义的键，例如 rack，为了让 pod 能部署到同⼀个机柜。唯⼀的前置条件就是，在你的节点上加上 rack 标签。
 **注意 在调度时，默认情况下，标签选择器只有匹配同⼀命名空间中的 pod。但是，可以通过在 labelSelector 同⼀级添加 namespaces 字段，实现从其他的命名空间选择 pod 的功能。**
 
-![rack](picture/rack.png)
+![rack](../../picture/rack.png)
 
 ### 表达 pod 亲缘性优先级取代强制性要求
 
@@ -233,13 +233,13 @@ spec:
             - "99999"
 ```
 
-![preferred pod affinity](picture/PreferredPodAffinity.png)
+![preferred pod affinity](../../picture/PreferredPodAffinity.png)
 
 ### 利用 pod 的非亲缘性分开调度 pod
 
 你可能希望 pod 远离彼此。这种特性叫作 pod ⾮亲缘性。
 它和 pod 亲缘性的表⽰方式⼀样，只不过是将 podAffinity 字段换成 podAntiAffinity，这将导致调度器永远不会选择那些有包含 podAntiAffinity 匹配标签的 pod 所在的节点。
-![pod antiAffinity](picture/podAntiAffinity.png)
+![pod antiAffinity](../../picture/podAntiAffinity.png)
 ⼀个为什么需要使用 pod ⾮亲缘性的例子，就是当两个集合的 pod，如果运行在同⼀个节点上会影响彼此的性能。在这种情况下，你需要告知调度器永远不要将这些 pod 部署在同⼀个节点上。另⼀个例子是强制让调度器将同⼀组的 pod 分在在不同的可用性区域或者地域，这样让整个区域或地域失效之后，不会使得整个服务完全不可用。
 
 ```yaml

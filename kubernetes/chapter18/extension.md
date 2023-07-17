@@ -12,7 +12,7 @@
 
 如果你想让自⼰的 Kubernetes 集群用户不必处理 pod、服务以及其他 Kubernetes 资源，甚⾄只需要确认网站域名以及网站中的⽂件 （HTML、CSS、PNG，等等）就能以最简单的⽅式运行静态网站。这时候，你需要⼀个 Git 存储库当作这些⽂件的来源。当用户创建网站资 源实例时，你希望 Kubernetes 创建⼀个新的 web 服务器 pod。并通过服务将它公开。
 
-![website](picture/website.png)
+![website](../../picture/website.png)
 
 ```yaml
 kind: Website
@@ -125,7 +125,7 @@ website.extensions.example.com "kubia" deleted
 ### 使用自定义控制器自动定制资源
 
 为了让你的网站对象运行⼀个通过服务暴露的 web 服务器 pod，你就需要构建和部署⼀个网站控制器。它能查看 API 服务器创建网站对象的过程，然后为每⼀个对象创建服务和 Web 服务器 pod。
-![controller](picture/controller.png)
+![controller](../../picture/controller.png)
 
 #### 了解网站控制器的功能
 
@@ -134,11 +134,11 @@ website.extensions.example.com "kubia" deleted
 > <http://localhost:8001/apis/extensions.example.com/v1/websites?watch=true>
 
 通过识别主机名和端口，我们看到控制器不直接连接到 API 服务 器，而是连接到 kubectl proxy 进程。该进程在同⼀个 pod 中的 sidecar 容器中运行，并充当 API 服务器的 ambassador（见第 8 章）。代理将请求转发 给 API 服务器，并同时处理 TLS 加密和认证。
-![controller communicate with api server](picture/communicate.png)
+![controller communicate with api server](../../picture/communicate.png)
 
 每次创建新的网站对象时，API 服务器都会发送 ADDED 监听事件。当控制器收到这样的事件时，就会在该监听事件所包含的网站对 象中提取网站名称和 Git 存储库的 URL，然后将它们的 JSON 清单发布到 API 服务器，来创建 Deployment 和 Service 对象。
 当网站资源实例被删除时，API 服务器还会发送 DELETED 监听事 件。在收到事件后，控制器就会删除之前创建的 Deployment 资源和 Service 资源。与此同时，控制器也会关闭并删除为该网站提供服务的 web 服务器。
-![website instance](picture/instance.png)
+![website instance](../../picture/instance.png)
 
 #### 将控制器作为 pod 运行
 
@@ -168,4 +168,4 @@ spec:
           image: luksa/kubectl-proxy:1.6.2
 ```
 
-![custom api server](picture/server.png)
+![custom api server](../../picture/server.png)
