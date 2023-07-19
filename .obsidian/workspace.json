@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "分布式/分布式事务.md",
-                "mode": "source",
+                "file": "go/grpc/metadata.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分布式/分布式事务.md",
+                "file": "go/grpc/metadata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分布式/分布式事务.md",
+                "file": "go/grpc/metadata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分布式/分布式事务.md"
+                "file": "go/grpc/metadata.md"
               }
             }
           }
@@ -149,27 +149,37 @@
   },
   "active": "6b77b9de0dadd870",
   "lastOpenFiles": [
+    "picture/fdc272a40357b12808d1084caff23936_MD5.webp",
+    "go/grpc/server原理.md",
+    "go/grpc/metadata.md",
+    "picture/65573d7a47c0564f7ebca31f9da161a9_MD5.webp",
+    "picture/e19848d0100a906558d8235b167b598f_MD5.webp",
+    "picture/ede457e5f82204a3cb36bb549e8cca1a_MD5.webp",
+    "picture/cb185af475428e0e09873ebafdbacafc_MD5.webp",
+    "picture/afad1f7e1206a03b4cec3c5a06faaf8a_MD5.webp",
+    "picture/a78761aec3d5ac4d263adcbc33f52904_MD5.webp",
+    "picture/71c9e917628491565641f0eed689acb1_MD5.webp",
+    "picture/a83d112850aacd38bd475d8f98070a1a_MD5.png",
+    "shell/函数.md",
+    "go/grpc",
+    "go",
     "shell/变量.md",
     "shell/目录堆栈.md",
     "shell/数组.md",
     "shell/算数运算.md",
+    "shell/条件判断.md",
     "shell/行操作.md",
     "shell/引号.md",
-    "shell/set命令.md",
+    "shell/字符串操作.md",
     "shell/bash.md",
-    "picture/14-2.png",
-    "kubernetes/chapter15/autoscale.md",
-    "picture/2022-11-22-21-21-48.png",
-    "picture/nodeAffinity.png",
-    "kubernetes/chapter17/bestPratice.md",
-    "picture/application.png",
+    "shell/set命令.md",
+    "README.md",
+    "picture/c821a17394f8724f6c11811d9d78088a_MD5.webp",
     "picture/communicate.png",
-    "picture/controller.png",
-    "picture/website.png",
-    "picture/pv_pvc.png",
+    "分布式/分布式事务.md",
+    "kubernetes/chapter15/autoscale.md",
+    "kubernetes/chapter17/bestPratice.md",
     "kubernetes/chapter5/service.md",
-    "picture/labelsSelector.png",
-    "picture/service.png",
     "操作系统/零拷贝.md",
     "操作系统",
     "系统设计/设计信息流(news feed)系统.md",
@@ -179,17 +189,9 @@
     "系统设计/第四章 设计限流器.md",
     "系统设计/第五章 设计一致性哈希.md",
     "系统设计/第二章 封底计算.md",
-    "系统设计/字典表设计.md",
-    "分布式/分布式事务.md",
     "分布式/未命名",
     "分布式",
-    "README.md",
-    "4.md",
-    "Pasted.md",
-    "未命名.md",
     "picture",
-    "系统设计",
-    "1.md",
-    "6.md"
+    "系统设计"
   ]
 }
