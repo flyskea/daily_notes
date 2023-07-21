@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/grpc/metadata.md",
-                "mode": "preview",
+                "file": "go/grpc/服务发现和负载均衡.md",
+                "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "30d3c246f9e7bc22",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/grpc/metadata.md",
+                "file": "go/grpc/服务发现和负载均衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/grpc/metadata.md",
+                "file": "go/grpc/服务发现和负载均衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/grpc/metadata.md"
+                "file": "go/grpc/服务发现和负载均衡.md"
               }
             }
           }
@@ -149,17 +157,20 @@
   },
   "active": "6b77b9de0dadd870",
   "lastOpenFiles": [
-    "picture/fdc272a40357b12808d1084caff23936_MD5.webp",
+    "picture/809219394b2433451e707170b5f8ce14_MD5.webp",
+    "picture/a0c5499756f3a729bb128f55a4c7117c_MD5.webp",
+    "picture/85ae4ac1197ee63d248362501ac03344_MD5.webp",
+    "picture/02c51a174cdfb5330f80d9273a4fe305_MD5.webp",
+    "picture/42e64aa543ef547365942472382aa2f3_MD5.webp",
+    "picture/7626051a97c42b79771411adaee25136_MD5.webp",
+    "picture/a906f1c1cf3bb94baf74fd1ebfec2a60_MD5.webp",
+    "picture/0f83b407025d3e9fb217359580a1d4ae_MD5.webp",
+    "picture/252022e5f6a2b104ee863695d41924e4_MD5.png",
+    "picture/ab182da0e276dd1b21d4052e9ee02429_MD5.png",
+    "picture/f3534a06d3f228707840c83e95654a66_MD5.png",
     "go/grpc/server原理.md",
+    "go/grpc/服务发现和负载均衡.md",
     "go/grpc/metadata.md",
-    "picture/65573d7a47c0564f7ebca31f9da161a9_MD5.webp",
-    "picture/e19848d0100a906558d8235b167b598f_MD5.webp",
-    "picture/ede457e5f82204a3cb36bb549e8cca1a_MD5.webp",
-    "picture/cb185af475428e0e09873ebafdbacafc_MD5.webp",
-    "picture/afad1f7e1206a03b4cec3c5a06faaf8a_MD5.webp",
-    "picture/a78761aec3d5ac4d263adcbc33f52904_MD5.webp",
-    "picture/71c9e917628491565641f0eed689acb1_MD5.webp",
-    "picture/a83d112850aacd38bd475d8f98070a1a_MD5.png",
     "shell/函数.md",
     "go/grpc",
     "go",
@@ -174,8 +185,6 @@
     "shell/bash.md",
     "shell/set命令.md",
     "README.md",
-    "picture/c821a17394f8724f6c11811d9d78088a_MD5.webp",
-    "picture/communicate.png",
     "分布式/分布式事务.md",
     "kubernetes/chapter15/autoscale.md",
     "kubernetes/chapter17/bestPratice.md",
@@ -188,7 +197,6 @@
     "系统设计/第三章 系统设计面试框架.md",
     "系统设计/第四章 设计限流器.md",
     "系统设计/第五章 设计一致性哈希.md",
-    "系统设计/第二章 封底计算.md",
     "分布式/未命名",
     "分布式",
     "picture",
