@@ -4,19 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "5403c96fbbaf5862",
+        "id": "39b896cf66993e91",
         "type": "tabs",
         "children": [
           {
-            "id": "d8482727b8eef532",
+            "id": "6b77b9de0dadd870",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prometheus/查询基础.md",
+                "file": "protobuf/注解.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "30d3c246f9e7bc22",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prometheus/查询基础.md",
+                "file": "protobuf/注解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prometheus/查询基础.md",
+                "file": "protobuf/注解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prometheus/查询基础.md"
+                "file": "protobuf/注解.md"
               }
             }
           }
@@ -147,24 +155,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false
     }
   },
-  "active": "d8482727b8eef532",
+  "active": "6b77b9de0dadd870",
   "lastOpenFiles": [
-    "kubernetes/chapter18/extension.md",
+    "go/grpc/client原理.md",
+    "protobuf/注解.md",
+    "protobuf",
     "prometheus/查询基础.md",
     "prometheus",
-    "云原生",
-    "shell/变量.md",
-    "shell/函数.md",
-    "shell/目录堆栈.md",
-    "shell/数组.md",
-    "shell/算数运算.md",
-    "shell/条件判断.md",
-    "shell/行操作.md",
-    "shell/引号.md",
-    "shell/字符串操作.md",
-    "shell/bash.md",
-    "shell/set命令.md",
-    "go/grpc/client原理.md",
     "picture/1e8e53becda52bc5a2979310421ace69_MD5.png",
     "picture/231e487c65294439acf1b59f04e3afa2_MD5.png",
     "picture/c0089b12edc18ba540598541f9e2059a_MD5.jpg",
@@ -178,8 +175,19 @@
     "go/grpc/服务发现和负载均衡.md",
     "go/grpc/server原理.md",
     "go/grpc/metadata.md",
+    "shell/函数.md",
     "go/grpc",
     "go",
+    "shell/变量.md",
+    "shell/目录堆栈.md",
+    "shell/数组.md",
+    "shell/算数运算.md",
+    "shell/条件判断.md",
+    "shell/行操作.md",
+    "shell/引号.md",
+    "shell/字符串操作.md",
+    "shell/bash.md",
+    "shell/set命令.md",
     "README.md",
     "分布式/分布式事务.md",
     "kubernetes/chapter15/autoscale.md",
