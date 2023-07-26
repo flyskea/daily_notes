@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "protobuf/基础.md",
+                "file": "redis/分布式.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "protobuf/基础.md",
+                "file": "redis/分布式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "protobuf/基础.md",
+                "file": "redis/分布式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "protobuf/基础.md"
+                "file": "redis/分布式.md"
               }
             }
           }
@@ -149,8 +149,21 @@
   },
   "active": "d8482727b8eef532",
   "lastOpenFiles": [
-    "protobuf/编码原理.md",
+    "picture/f0799f8c2d5b11262bb173f2d1cc5b37_MD5.png",
+    "picture/ab502c2e0b10d1816ec3d9b1d93edf95_MD5.webp",
+    "picture/82982181443cd59691f04c9be0c6797b_MD5.webp",
+    "picture/dafe24de795b1df3633e784348dbdcd4_MD5.webp",
+    "picture/2a760ba21222d31aecf82473924590d7_MD5.png",
+    "picture/32c3402ef88b6925ad1f33b7534d640d_MD5.png",
+    "picture/b2e1330d2c0529a09535ab29fd6de0d2_MD5.webp",
+    "picture/079679206e0dc220f01244a81ea8c241_MD5.webp",
+    "picture/ccbc119ba1a5592c2cb52dcf72afe68b_MD5.webp",
+    "picture/7cf28bc5cc29e6455ae4eda4e51245de_MD5.webp",
+    "picture/5995435cec62e52c9f7766f795c9d5e8_MD5.webp",
     "protobuf/基础.md",
+    "redis/分布式.md",
+    "redis",
+    "protobuf/编码原理.md",
     "prometheus/查询基础.md",
     "protobuf/注解.md",
     "protobuf",
@@ -169,16 +182,6 @@
     "shell/bash.md",
     "shell/set命令.md",
     "go/grpc/client原理.md",
-    "picture/1e8e53becda52bc5a2979310421ace69_MD5.png",
-    "picture/231e487c65294439acf1b59f04e3afa2_MD5.png",
-    "picture/c0089b12edc18ba540598541f9e2059a_MD5.jpg",
-    "picture/91993067c77984163cdae6969358c6f6_MD5.jpg",
-    "picture/a3ffc90734eb823c64acdb1a235af8ed_MD5.jpg",
-    "picture/2829ddf826767e792ed793608da1a46d_MD5.jpg",
-    "picture/fe3de197ee0ae7c18531053e801ffc37_MD5.png",
-    "picture/23d3c941813059dd50a18d3924f04209_MD5.png",
-    "picture/c5f02bce9270a1f913448a779a5b2a1f_MD5.jpg",
-    "picture/8598e2879279bb1fa62d2c8ad5209f6b_MD5.jpg",
     "go/grpc/服务发现和负载均衡.md",
     "go/grpc/server原理.md",
     "go/grpc/metadata.md",
@@ -188,12 +191,9 @@
     "分布式/分布式事务.md",
     "kubernetes/chapter15/autoscale.md",
     "kubernetes/chapter17/bestPratice.md",
-    "kubernetes/chapter5/service.md",
-    "操作系统/零拷贝.md",
     "操作系统",
     "操作系统",
     "分布式/未命名",
-    "分布式",
-    "picture"
+    "分布式"
   ]
 }
