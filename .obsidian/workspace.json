@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prometheus/容器监控.md",
+                "file": "prometheus/查询基础.md",
                 "mode": "preview",
                 "source": false
               }
@@ -23,11 +23,16 @@
             "id": "30d3c246f9e7bc22",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "prometheus/relabel.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prometheus/容器监控.md",
+                "file": "prometheus/relabel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prometheus/容器监控.md",
+                "file": "prometheus/relabel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prometheus/容器监控.md"
+                "file": "prometheus/relabel.md"
               }
             }
           }
@@ -152,17 +157,20 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false
+      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6b77b9de0dadd870",
+  "active": "30d3c246f9e7bc22",
   "lastOpenFiles": [
+    "prometheus/查询基础.md",
+    "prometheus/relabel.md",
+    "prometheus/容器监控.md",
     "picture/d10f7f155a73e08020ea4aebd4982dfa_MD5.png",
     "picture/cb1314650a925f1d42535f895febd3f0_MD5.png",
     "picture/2fa9f8c67d6f9aab62ea22af7298e582_MD5.png",
     "picture/13639aefebea9f474ef560d87544090a_MD5.png",
     "protobuf/编码原理.md",
-    "prometheus/容器监控.md",
     "picture/69a0e0abcbb9689f17e266b4612291e3_MD5.png",
     "picture/3ade6909d416776ddc80c3b380bc691d_MD5.png",
     "picture/23f31a8f67f678f7ecb7264134b8a26b_MD5.png",
@@ -175,10 +183,8 @@
     "picture/f0799f8c2d5b11262bb173f2d1cc5b37_MD5.png",
     "picture/dafe24de795b1df3633e784348dbdcd4_MD5.webp",
     "picture/ce44bc75e04105c73d502ba616280be6_MD5.webp",
-    "picture/ccbc119ba1a5592c2cb52dcf72afe68b_MD5.webp",
     "go/grpc/client原理.md",
     "protobuf",
-    "prometheus/查询基础.md",
     "prometheus",
     "go/grpc/服务发现和负载均衡.md",
     "go/grpc/server原理.md",
