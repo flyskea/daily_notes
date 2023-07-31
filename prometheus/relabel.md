@@ -1,5 +1,7 @@
 # How relabeling in Prometheus works
 
+翻译自:  [How relabeling in Prometheus works | Grafana Labs](https://grafana.com/blog/2022/03/21/how-relabeling-in-prometheus-works/#labelkeeplabeldrop)
+
 ## Prometheus labels
 
 标签是键值对的集合，允许我们对 Prometheus 指标中实际被测量的内容进行描述和组织。
