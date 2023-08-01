@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prometheus/查询基础.md",
-                "mode": "preview",
+                "file": "prometheus/relabel.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -23,16 +23,11 @@
             "id": "30d3c246f9e7bc22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prometheus/relabel.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "新闻订阅",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,34 +152,29 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false
     }
   },
-  "active": "30d3c246f9e7bc22",
+  "active": "6b77b9de0dadd870",
   "lastOpenFiles": [
-    "prometheus/查询基础.md",
-    "prometheus/relabel.md",
+    "go/设计与实现/context.md",
     "prometheus/容器监控.md",
+    "prometheus/relabel.md",
     "picture/d10f7f155a73e08020ea4aebd4982dfa_MD5.png",
     "picture/cb1314650a925f1d42535f895febd3f0_MD5.png",
     "picture/2fa9f8c67d6f9aab62ea22af7298e582_MD5.png",
     "picture/13639aefebea9f474ef560d87544090a_MD5.png",
-    "protobuf/编码原理.md",
-    "picture/69a0e0abcbb9689f17e266b4612291e3_MD5.png",
-    "picture/3ade6909d416776ddc80c3b380bc691d_MD5.png",
-    "picture/23f31a8f67f678f7ecb7264134b8a26b_MD5.png",
-    "go/设计与实现/context.md",
-    "go/设计与实现",
-    "redis/分布式.md",
-    "protobuf/基础.md",
-    "protobuf/注解.md",
-    "redis",
     "picture/f0799f8c2d5b11262bb173f2d1cc5b37_MD5.png",
     "picture/dafe24de795b1df3633e784348dbdcd4_MD5.webp",
     "picture/ce44bc75e04105c73d502ba616280be6_MD5.webp",
-    "go/grpc/client原理.md",
-    "protobuf",
+    "picture/ccbc119ba1a5592c2cb52dcf72afe68b_MD5.webp",
+    "picture/b2e1330d2c0529a09535ab29fd6de0d2_MD5.webp",
+    "picture/ab502c2e0b10d1816ec3d9b1d93edf95_MD5.webp",
+    "protobuf/基础.md",
+    "redis/分布式.md",
+    "redis",
+    "protobuf/编码原理.md",
+    "prometheus/查询基础.md",
     "prometheus",
     "go/grpc/服务发现和负载均衡.md",
     "go/grpc/server原理.md",
@@ -205,6 +195,7 @@
     "README.md",
     "分布式/分布式事务.md",
     "kubernetes/chapter15/autoscale.md",
+    "kubernetes/chapter17/bestPratice.md",
     "操作系统",
     "操作系统",
     "分布式/未命名",
