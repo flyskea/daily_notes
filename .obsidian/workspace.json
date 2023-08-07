@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5a961f68d7ffae21",
+        "id": "5fff997b97d8a5d8",
         "type": "tabs",
         "children": [
           {
-            "id": "d8b8c9475c17f8a1",
+            "id": "45f142b7dec760b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "###",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,8 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e659c7440a2aae41",
+  "active": "45f142b7dec760b3",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "未命名 2.canvas",
     "go/库/命令行.md",
     "go/库",
     "容器/原理.md",
@@ -167,7 +169,6 @@
     "picture/819e69c4bdde05e00599e9dbeb8d806a_MD5.jpg",
     "README.md",
     "容器",
-    "未命名.canvas",
     "4.md",
     "prometheus/操作符.md",
     "prometheus/查询基础.md",
@@ -203,7 +204,6 @@
     "shell/条件判断.md",
     "shell/行操作.md",
     "shell/引号.md",
-    "shell/字符串操作.md",
     "操作系统",
     "操作系统"
   ]
