@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/库/命令行.md",
+                "file": "系统设计/杂项/分布式限流.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/库/命令行.md",
+                "file": "系统设计/杂项/分布式限流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/库/命令行.md",
+                "file": "系统设计/杂项/分布式限流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/库/命令行.md"
+                "file": "系统设计/杂项/分布式限流.md"
               }
             }
           },
@@ -158,12 +158,28 @@
   },
   "active": "45f142b7dec760b3",
   "lastOpenFiles": [
+    "picture/8c8322b5ae317cd8f11c0925336e1a80_MD5.png",
+    "picture/e0dbaf6bfd7ebe1ae0e3d01c01d7e3ec_MD5.jpg",
+    "picture/c398e134e16fc59c03afcd48bb846332_MD5.png",
+    "picture/c83bd4aa5b2802fb6b87c9b11e0e9561_MD5.png",
+    "picture/c2c6c73c18a9fb15e91d9c71cf108e3c_MD5.png",
+    "picture/cc236cd4bce81721f4e30db70ca5794b_MD5.png",
+    "redis/分布式.md",
+    "系统设计/杂项/分布式限流.md",
+    "系统设计/杂项",
+    "shell/set命令.md",
+    "shell/bash.md",
+    "protobuf/注解.md",
+    "protobuf/基础.md",
+    "protobuf/编码原理.md",
+    "系统设计/第四章 设计限流器.md",
+    "系统设计/第五章 设计一致性哈希.md",
+    "容器/原理.md",
+    "go/库/命令行.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
-    "go/库/命令行.md",
     "go/库",
-    "容器/原理.md",
     "picture/bd5717c79e57d1cb822b60cf7bed43ec_MD5.jpg",
     "picture/b235da27318d39c176880776060ad04a_MD5.png",
     "picture/819e69c4bdde05e00599e9dbeb8d806a_MD5.jpg",
@@ -176,17 +192,8 @@
     "prometheus/容器监控.md",
     "picture/d10f7f155a73e08020ea4aebd4982dfa_MD5.png",
     "picture/cb1314650a925f1d42535f895febd3f0_MD5.png",
-    "picture/2fa9f8c67d6f9aab62ea22af7298e582_MD5.png",
-    "picture/13639aefebea9f474ef560d87544090a_MD5.png",
-    "protobuf/编码原理.md",
-    "picture/69a0e0abcbb9689f17e266b4612291e3_MD5.png",
-    "picture/3ade6909d416776ddc80c3b380bc691d_MD5.png",
-    "picture/23f31a8f67f678f7ecb7264134b8a26b_MD5.png",
     "go/设计与实现/context.md",
     "go/设计与实现",
-    "redis/分布式.md",
-    "protobuf/基础.md",
-    "protobuf/注解.md",
     "redis",
     "go/grpc/client原理.md",
     "protobuf",
@@ -199,12 +206,6 @@
     "go",
     "shell/变量.md",
     "shell/目录堆栈.md",
-    "shell/数组.md",
-    "shell/算数运算.md",
-    "shell/条件判断.md",
-    "shell/行操作.md",
-    "shell/引号.md",
-    "操作系统",
     "操作系统"
   ]
 }
