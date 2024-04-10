@@ -2,7 +2,7 @@
   "promptDelete": false,
   "attachmentFolderPath": "picture",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "showLineNumber": true,
   "alwaysUpdateLinks": true
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5fff997b97d8a5d8",
+        "id": "6942fac5b3b30219",
         "type": "tabs",
         "children": [
           {
-            "id": "45f142b7dec760b3",
+            "id": "32383b198936f8c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "系统设计/杂项/分布式限流.md",
+                "file": "算法/位运算.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "系统设计/杂项/分布式限流.md",
+                "file": "算法/位运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "系统设计/杂项/分布式限流.md",
+                "file": "算法/位运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "系统设计/杂项/分布式限流.md"
+                "file": "算法/位运算.md"
               }
             }
           },
@@ -152,35 +152,40 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3a8c16f1d22bdf24",
+  "active": "32383b198936f8c5",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "picture/c9856645106fdf312326e974b4bdc383_MD5.jpeg",
+    "picture/Pasted image 20240410204846.png",
+    "picture/1f34e859d24d15b6315e5be862952d2f_MD5.png",
+    "算法/位运算.md",
+    "go/库/命令行.md",
+    "算法",
     "系统设计/杂项/分布式限流.md",
     "picture/fb6cc862c9dc234b239555cdb41d9a7e_MD5.png",
-    "picture/baea9802f19b911dc6b61bec398f283d_MD5.png",
     "picture/Pasted image 20230817130036.png",
-    "picture/82c78d713d78c7a9192a8ee7c8598bb3_MD5.jpg",
-    "picture/60cb277a77ae4461ad0ed3c69832a091_MD5.png",
-    "picture/1055b6f550947ce6ad63410801889d54_MD5.png",
-    "picture/0db86f0fb04abc9e3a5790c7a17ca6bf_MD5.png",
-    "picture/08b1c3e52ddd70af63b6fafd7752d13d_MD5.png",
-    "picture/058d09994dd7f3be7d630bad698ac087_MD5.png",
-    "picture/8c8322b5ae317cd8f11c0925336e1a80_MD5.png",
+    "picture/819e69c4bdde05e00599e9dbeb8d806a_MD5.jpg",
+    "protobuf/基础.md",
+    "picture/Pasted image 20240219234931.png",
+    "picture/Pasted image 20240219234912.png",
+    "picture/Pasted image 20240219234733.png",
     "redis/分布式.md",
+    "picture/Pasted image 20240219234717.png",
+    "picture/Pasted image 20240219234715.png",
+    "分布式/分布式事务.md",
+    "系统设计/第三章 系统设计面试框架.md",
+    "conflict-files-obsidian-git.md",
     "系统设计/杂项",
     "shell/set命令.md",
     "shell/bash.md",
     "protobuf/注解.md",
-    "protobuf/基础.md",
     "protobuf/编码原理.md",
     "系统设计/第四章 设计限流器.md",
     "系统设计/第五章 设计一致性哈希.md",
     "容器/原理.md",
-    "go/库/命令行.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
@@ -200,12 +205,7 @@
     "prometheus",
     "go/grpc/服务发现和负载均衡.md",
     "go/grpc/server原理.md",
-    "go/grpc/metadata.md",
-    "shell/函数.md",
     "go/grpc",
-    "go",
-    "shell/变量.md",
-    "shell/目录堆栈.md",
-    "操作系统"
+    "go"
   ]
 }
