@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6942fac5b3b30219",
+        "id": "af264717ecfe15ea",
         "type": "tabs",
         "children": [
           {
-            "id": "32383b198936f8c5",
+            "id": "59b2aadddde57be3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/位运算.md",
+                "file": "算法/链表.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/位运算.md",
+                "file": "算法/链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/位运算.md",
+                "file": "算法/链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/位运算.md"
+                "file": "算法/链表.md"
               }
             }
           },
@@ -156,23 +156,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "32383b198936f8c5",
+  "active": "59b2aadddde57be3",
   "lastOpenFiles": [
+    "picture/ad31a62ebfc4db2610c2a254b22444b0_MD5.jpeg",
+    "picture/Pasted image 20240415235341.png",
+    "picture/3c1f3c4ae9a023b7fe725d6aa4e7bf1a_MD5.jpeg",
+    "picture/Pasted image 20240415223003.png",
+    "picture/a28eb5d141b809a0f0febf52ca6bea66_MD5.jpeg",
+    "picture/Pasted image 20240415222612.png",
+    "算法/链表.md",
+    "系统设计/杂项/分布式限流.md",
+    "算法/位运算.md",
     "picture/Pasted image 20240414131752 1.png",
     "picture/Pasted image 20240414131752.png",
     "picture/Pasted image 20240414131747.png",
     "picture/e501cce0ac72f8175a45d7079e07e45a_MD5.jpeg",
     "picture/Pasted image 20240414125504.png",
-    "picture/973df762769d77ecf5b0c400d2daa244_MD5.jpeg",
-    "picture/Pasted image 20240414111506.png",
-    "picture/680d9b4611c962f59df4e26b7b8a694e_MD5.png",
-    "picture/293a2faa3ea9492032da1476094aabbb_MD5.png",
-    "picture/50a2949aa9dde76af4d88a80eae37218_MD5.png",
-    "picture/c9856645106fdf312326e974b4bdc383_MD5.jpeg",
-    "算法/位运算.md",
     "go/库/命令行.md",
     "算法",
-    "系统设计/杂项/分布式限流.md",
     "protobuf/基础.md",
     "redis/分布式.md",
     "分布式/分布式事务.md",
@@ -204,7 +205,6 @@
     "protobuf",
     "prometheus",
     "go/grpc/服务发现和负载均衡.md",
-    "go/grpc/server原理.md",
     "go/grpc",
     "go"
   ]
