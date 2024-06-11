@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/二分查找.md",
+                "file": "算法/DFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/二分查找.md",
+                "file": "算法/DFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/二分查找.md",
+                "file": "算法/DFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/二分查找.md"
+                "file": "算法/DFS.md"
               }
             }
           },
@@ -158,10 +158,11 @@
   },
   "active": "a4a691803abf4e2a",
   "lastOpenFiles": [
+    "算法/二分查找.md",
+    "算法/DFS.md",
     "picture/c13102c74d9af0d651f2755a27b5d2a3_MD5.jpeg",
     "picture/Pasted image 20240606224743.png",
     "算法/双指针.md",
-    "算法/二分查找.md",
     "picture/da7490f31977d727f096efa65660a71a_MD5.jpeg",
     "picture/Pasted image 20240606214119.png",
     "picture/85dc49311b72d4d315119ab8766ffe3b_MD5.jpeg",
@@ -170,7 +171,6 @@
     "picture/Pasted image 20240606211114.png",
     "picture/cd87cc94df9e01c7c6e2f845b61c189c_MD5.webp",
     "picture/1598d50fc13a6845ad55abbce14c0f38_MD5.webp",
-    "picture/6b67a37a9d2d8c726f74cef45e3cfd0c_MD5.webp",
     "算法/哈希.md",
     "算法/链表.md",
     "算法/位运算.md",
