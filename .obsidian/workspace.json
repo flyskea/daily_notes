@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/DFS.md",
+                "file": "算法/栈.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/DFS.md",
+                "file": "算法/栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/DFS.md",
+                "file": "算法/栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/DFS.md"
+                "file": "算法/栈.md"
               }
             }
           },
@@ -158,8 +158,13 @@
   },
   "active": "a4a691803abf4e2a",
   "lastOpenFiles": [
-    "算法/二分查找.md",
+    "picture/c49fbebdc08b80a6d2fd43b3ec331aee_MD5.webp",
     "算法/DFS.md",
+    "算法/栈.md",
+    "picture/a03712770ce2d1039694595b6ff1c2eb_MD5.jpeg",
+    "picture/Pasted image 20240612210956.png",
+    "picture/056621f7858bef97183fc839833af382_MD5.png",
+    "算法/二分查找.md",
     "picture/c13102c74d9af0d651f2755a27b5d2a3_MD5.jpeg",
     "picture/Pasted image 20240606224743.png",
     "算法/双指针.md",
@@ -168,9 +173,6 @@
     "picture/85dc49311b72d4d315119ab8766ffe3b_MD5.jpeg",
     "picture/Pasted image 20240606211138.png",
     "picture/abcd4b9c5dff16aa8e3fe1f05a15d6eb_MD5.jpeg",
-    "picture/Pasted image 20240606211114.png",
-    "picture/cd87cc94df9e01c7c6e2f845b61c189c_MD5.webp",
-    "picture/1598d50fc13a6845ad55abbce14c0f38_MD5.webp",
     "算法/哈希.md",
     "算法/链表.md",
     "算法/位运算.md",
@@ -199,8 +201,6 @@
     "4.md",
     "prometheus/操作符.md",
     "prometheus/查询基础.md",
-    "prometheus/relabel.md",
-    "prometheus/容器监控.md",
     "go/设计与实现",
     "redis",
     "protobuf",
