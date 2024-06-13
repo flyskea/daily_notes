@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/栈.md",
+                "file": "算法/单调栈.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/栈.md",
+                "file": "算法/单调栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/栈.md",
+                "file": "算法/单调栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/栈.md"
+                "file": "算法/单调栈.md"
               }
             }
           },
@@ -158,9 +158,12 @@
   },
   "active": "a4a691803abf4e2a",
   "lastOpenFiles": [
-    "picture/c49fbebdc08b80a6d2fd43b3ec331aee_MD5.webp",
-    "算法/DFS.md",
+    "picture/cdb8b7d7044a00011318e73503008395_MD5.webp",
+    "picture/e98fe5ad826b747b88c81591252d92da_MD5.webp",
     "算法/栈.md",
+    "算法/单调栈.md",
+    "算法/DFS.md",
+    "picture/c49fbebdc08b80a6d2fd43b3ec331aee_MD5.webp",
     "picture/a03712770ce2d1039694595b6ff1c2eb_MD5.jpeg",
     "picture/Pasted image 20240612210956.png",
     "picture/056621f7858bef97183fc839833af382_MD5.png",
@@ -171,8 +174,6 @@
     "picture/da7490f31977d727f096efa65660a71a_MD5.jpeg",
     "picture/Pasted image 20240606214119.png",
     "picture/85dc49311b72d4d315119ab8766ffe3b_MD5.jpeg",
-    "picture/Pasted image 20240606211138.png",
-    "picture/abcd4b9c5dff16aa8e3fe1f05a15d6eb_MD5.jpeg",
     "算法/哈希.md",
     "算法/链表.md",
     "算法/位运算.md",
@@ -200,7 +201,6 @@
     "容器",
     "4.md",
     "prometheus/操作符.md",
-    "prometheus/查询基础.md",
     "go/设计与实现",
     "redis",
     "protobuf",
