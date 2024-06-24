@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/单调栈.md",
+                "file": "算法/树.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/单调栈.md",
+                "file": "算法/树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/单调栈.md",
+                "file": "算法/树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/单调栈.md"
+                "file": "算法/树.md"
               }
             }
           },
@@ -156,27 +156,28 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a4a691803abf4e2a",
+  "active": "ce8b40b1e6ad9f91",
   "lastOpenFiles": [
-    "picture/cdb8b7d7044a00011318e73503008395_MD5.webp",
-    "picture/e98fe5ad826b747b88c81591252d92da_MD5.webp",
-    "算法/栈.md",
+    "2024-06-24.md",
+    "算法/树.md",
+    "picture/df2a5141804a65f21742db5082bc19e3_MD5.jpg",
+    "picture/7e081aec320beb17a6c971a6e2a51f69_MD5.webp",
+    "picture/2ba188cd39a228bd39d69c22b01b3bb2_MD5.webp",
+    "picture/8c4e06755c6793dce6fdfb4158f7f9be_MD5.webp",
     "算法/单调栈.md",
+    "picture/effc4a1c4fa7589343ff6014e77be6f8_MD5.webp",
+    "picture/6a53578048806b36fb94663785451e88_MD5.webp",
+    "picture/1e03f4a965d2283df1f74544d1fe4bf9_MD5.webp",
+    "picture/beef1dd08ac1fbe2b2c0dd4bae273f02_MD5.webp",
+    "picture/3aad3360c956333b7a5065464b88149b_MD5.webp",
+    "picture/56e2792499a8964787af5e0fccdf4063_MD5.webp",
+    "算法/栈.md",
     "算法/DFS.md",
-    "picture/c49fbebdc08b80a6d2fd43b3ec331aee_MD5.webp",
-    "picture/a03712770ce2d1039694595b6ff1c2eb_MD5.jpeg",
-    "picture/Pasted image 20240612210956.png",
-    "picture/056621f7858bef97183fc839833af382_MD5.png",
-    "算法/二分查找.md",
-    "picture/c13102c74d9af0d651f2755a27b5d2a3_MD5.jpeg",
-    "picture/Pasted image 20240606224743.png",
-    "算法/双指针.md",
-    "picture/da7490f31977d727f096efa65660a71a_MD5.jpeg",
-    "picture/Pasted image 20240606214119.png",
-    "picture/85dc49311b72d4d315119ab8766ffe3b_MD5.jpeg",
-    "算法/哈希.md",
-    "算法/链表.md",
     "算法/位运算.md",
+    "算法/双指针.md",
+    "算法/链表.md",
+    "算法/哈希.md",
+    "算法/二分查找.md",
     "系统设计/杂项/分布式限流.md",
     "go/库/命令行.md",
     "算法",
@@ -200,7 +201,6 @@
     "README.md",
     "容器",
     "4.md",
-    "prometheus/操作符.md",
     "go/设计与实现",
     "redis",
     "protobuf",
